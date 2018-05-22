@@ -24,12 +24,12 @@
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>OpenTracing instrumentation for Spring Messaging</description>
-  <url>https://github.com/opentracing-contrib/java-spring-messaging</url>
+  <url>https://github.com/rebuy-de/java-spring-messaging</url>
 
   <scm>
-    <url>https://github.com/opentracing-contrib/java-spring-messaging</url>
-    <connection>scm:git:https://github.com/opentracing-contrib/java-spring-messaging.git</connection>
-    <developerConnection>scm:git:https://github.com/opentracing-contrib/java-spring-messaging.git</developerConnection>
+    <url>https://github.com/rebuy-de/java-spring-messaging</url>
+    <connection>scm:git:https://github.com/rebuy-de/java-spring-messaging.git</connection>
+    <developerConnection>scm:git:https://github.com/rebuy-de/java-spring-messaging.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
@@ -110,12 +110,14 @@
 
   <distributionManagement>
     <repository>
-      <id>bintray</id>
-      <url>https://api.bintray.com/maven/opentracing/maven/opentracing-spring-messaging/;publish=1</url>
+      <id>de.rebuy.maven</id>
+      <name>reBuy maven repository</name>
+      <url>https://maven.rebuy.de/repository/maven-releases</url>
     </repository>
     <snapshotRepository>
-      <id>jfrog-snapshots</id>
-      <url>http://oss.jfrog.org/artifactory/oss-snapshot-local</url>
+      <id>de.rebuy.maven</id>
+      <name>reBuy maven repository</name>
+      <url>https://maven.rebuy.de/repository/maven-snapshots</url>
     </snapshotRepository>
   </distributionManagement>
 
